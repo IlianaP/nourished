@@ -1,0 +1,293 @@
+/*=======================BODY=========================*/ 
+
+body {
+	margin-top: 0%;
+	margin-right: 0;
+	margin-bottom: 15%;
+    margin-left: 0%; 
+    text-align: justify; 
+    
+} 
+
+.main {
+    margin-top: 0%;
+	margin-right: 15%;
+	margin-bottom: 15%;
+    margin-left: 15%; 
+    text-align: justify; 
+} 
+
+/*=======================LOGO AND NAVIGATION BAR=========================*/ 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    list-style-type: none;
+    
+}
+
+li {
+    display:inline-block;  
+    text-decoration: none;
+}
+
+div.nav a:link, a:visited {
+    display: block;
+    width: 120px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px; 
+    font-family: "Dubiel";
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase; 
+} 
+
+div.nav a:hover, a:active {
+    text-decoration: underline;
+} 
+
+#Logo {
+    text-align:center; 
+} 
+
+#logosize {
+    width: 700px;
+} 
+
+a, u {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000; 
+    text-decoration: underline;
+} 
+
+#banner {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*=======================INDEX=========================*/ 
+#wrapperindex {
+    margin:0 auto; 
+    text-align:center; 
+}
+    
+#columnindex1 { 
+    float: left;
+    margin: auto;
+    text-align: justify; 
+    width: 33%; 
+} 
+
+#columnindex2 { 
+    float: left;
+    text-align: center; 
+    width: 33%; 
+} 
+
+#columnindex3 {
+    float: left;
+    text-align: center; 
+    width: 33%; 
+}
+
+/*=======================HEADINGS AND PARAGRAPHS=========================*/ 
+
+h1 {
+    font-family: "Dubiel"; 
+    letter-spacing: 5px; 
+    text-align: center;
+    font-size: 40px; 
+} 
+
+h2 { 
+    font-family: "Dubiel"; 
+    line-height: 35px; 
+} 
+
+p { 
+    font-size: 18px; 
+    letter-spacing: 1px; 
+}
+
+/*=======================FONTS=========================*/
+
+@font-face {
+    font-family: FNEORD;
+    src: url(../fonts/NEORD___.ttf);
+} 
+
+@font-face {
+    font-family: FingerPaint-Regular;
+    src: url(../fonts/FingerPaint-Regular.ttf);
+} 
+
+@font-face {
+    font-family: Dubiel;
+    src: url(../fonts/Dubiel.ttf);
+} 
+
+/*=======================RECIPE PAGE LAYOUT=========================*/
+
+#Chocolate {
+    font-family: "Dubiel"; 
+    font-size: 130%; 
+    color: #000000; 
+} 
+
+#Chocolatedesserts {
+    font-family: "Dubiel"; 
+    font-size: 130%; 
+    color: #000000; 
+} 
+
+#Chocolatedinner {
+    font-family: "Dubiel"; 
+    font-size: 130%; 
+    color: #000000; 
+}
+
+#wrapper {  
+    margin:0 auto; 
+    text-align:center; 
+} 
+
+#Column1 {
+    float: left;
+    margin: auto;
+    text-align: center; 
+    width: 33.3%; 
+} 
+
+#Column2 {
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: 33.3%; 
+}
+
+#Column3 {
+    float: left;
+    margin: auto; 
+    text-align: center;
+    width: 33.3%; 
+} 
+
+.Chocolate {
+    font-family: "Dubiel"; 
+    font-size: 130%; 
+    color: #000000; 
+}
+
+#recipetitle {
+    font-family: "Dubiel";
+} 
+
+#Recipe {margin-right: 3%;
+	margin-bottom: 10%;
+    margin-left: 3%; 
+    text-align: center; 
+} 
+
+.CakeWidth {
+    width: 150px; 
+    height: auto; 
+}
+    
+img.Recipeimage { 
+    height:auto; 
+    width: 500px;
+    border-radius: 15px 50px;
+} 
+
+#recipeboxwrapper{  
+    margin: 0 auto; 
+    text-align:center; 
+} 
+
+#recipeboxleft {
+    float: left;
+    margin-right: 3%;
+    text-align: left; 
+    width: 25%; 
+    border: 2px solid #000000;
+    font-style: normal;  
+    padding: 20px;
+} 
+
+#recipeboxright {
+    float: left;
+    margin: auto;
+    text-align: left;
+    width: 60%; 
+} 
+
+
+/*=======================IMAGES=========================*/
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+} 
+
+.source { 
+    font-size: 10px;
+}
+
+.Cover {
+    float: left;  
+    width: 90%; 
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+ 
+img.coconut {  
+
+    width: 200px; 
+    height: auto; 
+} 
+
+.img-circle {
+    border-radius: 50%;
+} 
+
+.shoppingsize {
+    width: 30%; 
+    float: left;
+    margin-right: 3%;
+}
+/*=======================TEXT=========================*/
+
+#comingsoon {
+    font-family: "FNEORD"
+}
+
+#center { 
+    text-align: center;
+} 
+
+/*=======================SHOPPING PAGE=========================*/ 
+
+.row1 { 
+    width:100%; 
+    display: block;
+} 
+
+.column1shopping {
+    width: 25%; 
+    float:left; 
+    margin: 3%; 
+    margin-top: 0%;
+}
+    
+.nofloat { 
+    clear: both; 
+    width: 100%;
+} 
